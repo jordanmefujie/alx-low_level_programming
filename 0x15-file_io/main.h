@@ -9,6 +9,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+char *create_buffer(char *file);
+void close_file(int fd);
+char *create_buffer(char *file);
+void close_file(int fd);
+int main(int argc, char *argv[]);
 void check_elf(unsigned char *e_ident);
 void print_magic(unsigned char *e_ident);
 void print_class(unsigned char *e_ident);
