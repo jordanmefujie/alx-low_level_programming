@@ -9,8 +9,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 char *create_buffer(char *file);
-void close_file(int fd);
 char *create_buffer(char *file);
 void close_file(int fd);
 int main(int argc, char *argv[]);
