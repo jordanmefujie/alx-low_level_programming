@@ -17,9 +17,9 @@
  */
 typedef struct listint_s
 {
-    int n;               /* Integer stored at the node. */
-    size_t index;        /* Index of the node in the list. */
-    struct listint_s *next; /* Pointer to the next node. */
+	int n;               /* Integer stored at the node. */
+	size_t index;        /* Index of the node in the list. */
+	struct listint_s *next; /* Pointer to the next node. */
 } listint_t;
 
 /**
@@ -38,10 +38,10 @@ typedef struct listint_s
  */
 typedef struct skiplist_s
 {
-    int n;               /* Integer stored at the node. */
-    size_t index;        /* Index of the node in the list. */
-    struct skiplist_s *next;    /* Pointer to the next node. */
-    struct skiplist_s *express; /* Pointer to the next node in the express lane. */
+	int n;               /* Integer stored at the node. */
+	size_t index;        /* Index of the node in the list. */
+	struct skiplist_s *next;    /* Pointer to the next node. */
+	struct skiplist_s *express;
 } skiplist_t;
 
 /* Function prototypes for various search algorithms */
